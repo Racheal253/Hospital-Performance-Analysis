@@ -1,14 +1,21 @@
 # Hospital Performance Insight
+
+## Table Of Contents
+
+- [Project Overview](#project-overview)
+- [Audience](#audience)
+- [Data Sources](#data-sources)
+- [Data Preparation](#data-preparation)
  
-## Project Overview 
+### Project Overview 
 
 This project aims to provide, insights into hospital performance of Massachusetts General Hospital(MGH) over the past year. By analyzing a subset of patients data, i seek to build a high level KPI report for the executive team and also giving stakeholders visibility into the hospitals's recent performance. 
 
-## Audience 
+### Audience 
 
 Executive
 
-## Data Sources 
+### Data Sources 
 
 - "patients.csv" : contains detailed information about patient demographic 
 - "encounters.csv" : details of patient encounters 
@@ -16,15 +23,15 @@ Executive
 - "procedures.csv": details of medical procedures performed"
 - "payers.csv" : insurance and coverage information
 
-## Data Structure
+### Data Structure
 - Multiple Tables: 5
 - Number of Records: 75,592
 - Number of Fields: 55
   
-## Tool used for the analysis 
+### Tool used for the analysis 
 PowerBI- for cleaning, analyzing and building reports. 
 
-## Data Preparation 
+### Data Preparation 
 
 The data was mostly clean,so there was not much cleaning required. However, the following steps were taken to ensure data validity:
 1. Data loading and inspection
@@ -33,7 +40,7 @@ The data was mostly clean,so there was not much cleaning required. However, the 
 4. Handled missing values: There were about 15% missing valus in the patient location data, but these missing values did not significantly affect the analysis, so they were left as it was.
 5. Created a date table using Dax to facilitate time-based analysis.
 
-## Creating a Date Table Using DAX
+### Creating a Date Table Using DAX
 The date was created using the following Dax code. 
 
 ```dax
@@ -46,13 +53,13 @@ DateTable = ADDCOLUMNS(
 "Days", 1
 )
 ```
-## Data Modelling 
+### Data Modelling 
 The star schema method was to structure the data model. The main fact tables are "encounters" and "procedures". 
 
 <img width="400" alt="snapshot" src="https://github.com/user-attachments/assets/401d2e86-c5ff-434f-b19c-a62031eeb908">
 
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 EDA involved exploring the dataset to answer key questions such as: 
 - How many patients have been admitted or readmitted over time?
 - how long are patients staying in the hospital, on average?
@@ -63,7 +70,7 @@ EDA involved exploring the dataset to answer key questions such as:
 - what is the total amount covered by insurance for the patients treated?
 - which five cities had the highest number of patients admitted to the hospital?
 
-## Data Analysis 
+### Data Analysis 
 1. How many Patients have been admitted and readmitted over time?
 
 paients admitted
