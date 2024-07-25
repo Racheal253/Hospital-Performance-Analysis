@@ -5,7 +5,13 @@
 - [Project Overview](#project-overview)
 - [Audience](#audience)
 - [Data Sources](#data-sources)
+- [Data Structure](#data-structure)
+- [Tool used for the analysis](#tool-used-for-the-analysis)
 - [Data Preparation](#data-preparation)
+- [Creating a Date Table Using DAX](#creating-a-date-table-using-dax)
+- [Data Modelling](#data-modelling)
+- [Exploratory Data Analysis](exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
  
 ### Project Overview 
 
