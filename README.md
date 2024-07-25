@@ -62,8 +62,7 @@ DateTable = ADDCOLUMNS(
 ### Data Modelling 
 The star schema method was to structure the data model. The main fact tables are "encounters" and "procedures". 
 
-<img width="400" alt="snapshot" src="https://github.com/user-attachments/assets/401d2e86-c5ff-434f-b19c-a62031eeb908">
-
+<img width="610" alt="snapshot" src="https://github.com/user-attachments/assets/bede9991-eaf4-4025-a7be-378a4923069c">
 
 ### Exploratory Data Analysis
 EDA involved exploring the dataset to answer key questions such as: 
