@@ -1,4 +1,4 @@
-# Hospital Performance Insight
+# Hospital Performance Insights
 
 ## Table Of Contents
 
@@ -18,6 +18,12 @@
 ## Project Overview 
 
 This project aims to provide, insights into hospital performance of Massachusetts General Hospital(MGH) over the past year. By analyzing a subset of patients data, i seek to build a high level KPI report for the executive team and also giving stakeholders visibility into the hospitals's recent performance. 
+
+
+![Hospital Report](https://github.com/user-attachments/assets/87b5d5df-5382-46c9-b05b-5b5411161bbe)
+
+
+[Dashboard Link](https://app.powerbi.com/links/Gm3IEyatVB?ctid=04ade39f-5160-4faa-bcff-26d243a2b402&pbi_source=linkShare)
 
 ## Audience 
 
@@ -156,3 +162,5 @@ The analysis results are summarized as follows
    - Increase awareness of the hospital’s services and improve accessibility for patients. This could include community outreach programs, partnerships with local healthcare providers, and expanding telemedicine services to reach more patients.
 7. Monitor and Adapt to Trends:
    - Continuously monitor patient trends, procedure costs, and insurance coverage. Use data-driven insights to adapt strategies and make informed decisions to improve hospital performance and patient satisfaction.
+
+ 
