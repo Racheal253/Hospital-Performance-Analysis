@@ -17,6 +17,7 @@
  
 ## Project Overview 
 
+
 This project aims to provide, insights into hospital performance of Massachusetts General Hospital(MGH) over the past year. By analyzing a subset of patients data, i seek to build a high level KPI report for the executive team and also giving stakeholders visibility into the hospitals's recent performance. 
 
 
